@@ -1055,8 +1055,12 @@ p {
 .faq-answer {
     padding: 0 1.5rem 1.1rem;
     display: none;
-}
-
+  }
+  
+  .faq-item.active .faq-answer {
+    display: block;
+  }
+  
 .faq-answer p {
     font-family: 'Outfit', sans-serif;
     color: #6b7280;
